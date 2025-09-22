@@ -25,3 +25,22 @@ git branch
 git branch<uj agazatok hasznalata>
 
 git checkout <branch ujag kivalasztasa>
+
+git branch<nev>
+branch valtoztatas
+
+git remote add origin <branch nev> https://github.com/ 
+
+Git remote show
+megmutatja milyen neven vannak kapcsolatok
+
+Git Remote show origin
+megmutatja melyik githubos repoval van kapcsolatban
+
+git pull origin <branchnev>
+letrehozott origin kapcsolat alapjan leszedi a githubrol a valtoztatast, ez csak akkor mukodik ha le van pullozva v ha nincs valtoztatas
+
+git push origint <branch nev>
+- a letrehozott origin kapcsolat alapjan feltölti github-ra a változtatásokat(ez csak akkor müködik ha előtte lett pull-lova vagy nem vot fent változtatás)
+
+git pull origin master --allow-unrelated-histories
