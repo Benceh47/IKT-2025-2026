@@ -1,0 +1,5 @@
+print("Ribárik Bence")
+print("10.b")
+print("2025.09.12")
+print("uj ag létrehozása")
+print("gyakorlas")
