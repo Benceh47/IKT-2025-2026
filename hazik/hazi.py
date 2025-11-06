@@ -25,7 +25,7 @@ print("A szabályos háromszög magassága:", magassag)
 
 
 
-a = 4  # kocka éle
+a = 4  # kocka éles
 
 lapatlo = math.sqrt(a**2 + a**2)
 testatlo = math.sqrt(a**2 + a**2 + a**2)
